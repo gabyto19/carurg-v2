@@ -1,0 +1,9 @@
+<div class="order-main">
+  <div [ngSwitch]="receivedOrderType">
+    <div *ngSwitchCase="'welcome'"><app-welcome class="welcome"></app-welcome></div>
+    <div *ngSwitchCase="'quick'"><app-quick class="quick"></app-quick></div>
+    <div *ngSwitchCase="'advanced'"><app-advanced class="advanced"></app-advanced></div>
+    <div *ngSwitchCase="'find'"><app-findus class="find"></app-findus></div>
+    <div *ngSwitchDefault><app-welcome class="welcome"></app-welcome></div>
+  </div>
+</div>

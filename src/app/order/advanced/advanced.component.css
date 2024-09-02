@@ -1,0 +1,19 @@
+.car-details{
+    div{
+        display: flex;
+        justify-content: space-between;
+    }
+    h1{
+        margin: 0px auto 50px auto;
+    }
+}
+.accept{
+    button{
+        background-color: #4B98C9 !important;
+        height: 50px;
+        width: 145px;
+        color: white;
+        font-size: 18px;
+        text-shadow: 4px 4px 3px #00000040;
+    }
+}

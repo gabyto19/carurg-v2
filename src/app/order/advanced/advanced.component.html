@@ -1,0 +1,41 @@
+<div class="car-details d-flex w-100 flex-column" [formGroup]="carForm">
+  <h1>Advanced</h1>
+  <div>
+    <mat-form-field>
+      <mat-label>Brand</mat-label>
+      <input matInput formControlName="brand" />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Model</mat-label>
+      <input matInput formControlName="model" />
+    </mat-form-field>
+  </div>
+
+  <div>
+    <mat-form-field>
+      <mat-label>Year</mat-label>
+      <input matInput formControlName="year" />
+    </mat-form-field>
+    <mat-form-field class="only-number">
+      <mat-label>Telephone</mat-label>
+      <input type="tel" matInput formControlName="telephone" placeholder="512-345-567" />
+    </mat-form-field>
+  </div>
+</div>
+
+<div class="additional-details w-100" [formGroup]="carForm">
+  <mat-form-field class="w-100">
+    <mat-label>Details about car | What do you need?</mat-label>
+    <textarea style="resize: none" matInput formControlName="details" placeholder="Ex. It makes me feel..."></textarea>
+  </mat-form-field>
+</div>
+<p *ngIf="successMessage" [ngClass]="{
+  'text-success': successMessage,
+  'text-danger': !successMessage
+}" class="SendClass">
+{{ successMessage }}
+</p>
+<div class="accept w-75 d-flex" [formGroup]="carForm">
+  <button mat-raised-button (click)="onSubmit()" class="m-auto">Contact me</button>
+</div>
+

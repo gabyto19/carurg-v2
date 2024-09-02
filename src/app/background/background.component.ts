@@ -14,4 +14,11 @@ export class BackgroundComponent {
     const orderType = data;
     this.sharedService.setOrderType(orderType);
   }
+  receivedOrderType: any;
+
+  ngOnInit() {
+    this.sharedService.orderType$.subscribe(data => {
+      this.buttonToggler = data;
+    });
+  }
 }

@@ -13,3 +13,17 @@ header {
     top: 50px;
   }
 }
+
+@media (max-width:1000px) {
+  main {
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+
+  .background-component {
+    order: 1; /* Show background first */
+  }
+
+  .order-component {
+    order: 2; /* Show order second */
+  }
+}

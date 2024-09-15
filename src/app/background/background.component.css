@@ -91,6 +91,41 @@
 
 @media (max-width: 1400px) {
   .background img {
-    height: 420px;
+    height: 370px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .background img {
+    height: 280px;
+  }
+
+  #my-path {
+    d: path("M200,70 C120,150 120,350 200,430");
+
+  }
+
+  .quick-view {
+    top: 105px;
+    left: -35px;
+    width: 118px;
+  }
+
+  
+  .advanced-view {
+    left: -92px;
+    width: 150px;
+  }
+  
+  .findus-view {
+    width: 130px;
+    left: -47px;
+    bottom: 8px;
+  }
+  .background {
+    div p {
+      padding: 6px 18px;
+      font-size: 17px;
+    }
   }
 }

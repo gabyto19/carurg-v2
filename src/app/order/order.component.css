@@ -1,5 +1,4 @@
 .welcome {
-    width: 600px;
     max-width: 600px;
     display: flex;
     flex-direction: column;
@@ -50,15 +49,26 @@
     .welcome,
     .quick,
     .advanced,
-    .find { 
+    .find {
         margin-left: 0;
         left: 0;
     }
-    .order-main{
+
+    .order-main {
         left: 11%;
     }
 }
 
-@media (max-width:1240px){
-    
+@media (max-width:1200px) {
+    .welcome {
+        max-width: 430px;
+        position: relative;
+        top: 60px;
+    }
+    .advanced{
+        width: 440px;
+    }
+    .quick{
+        width: 440px;
+    }
 }

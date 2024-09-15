@@ -2,7 +2,7 @@
   <div class="bg-nav position-absolute">
     <div class="quick-view views" (click)="sendOrderType('quick')">
       <p [ngClass]="{'active-button': buttonToggler === 'quick'}" i18n>Quick</p>
-      
+
       <div class="point" [ngClass]="{'active-point': buttonToggler === 'quick'}"></div>
     </div>
     <div class="advanced-view views" (click)="sendOrderType('advanced')">
@@ -15,9 +15,8 @@
     </div>
   </div>
 
-  <svg _ngcontent-ng-c4195383385="" width="200" height="500" xmlns="http://www.w3.org/2000/svg">
-    <path _ngcontent-ng-c4195383385="" _ngcontent-ng-c1210584021="" _ngcontent-ng-c1005598428=""
-      d="M200,0 C100,100 100,400 200,500" stroke="white" stroke-width="2" fill="none"></path>
+  <svg id="my-svg" width="200" height="500" xmlns="http://www.w3.org/2000/svg">
+    <path id="my-path" d="M200,0 C100,100 100,400 200,500" stroke="white" stroke-width="2" fill="none"></path>
   </svg>
 
   <img src="../assets/imgs/bg-bmw.png" alt="" />

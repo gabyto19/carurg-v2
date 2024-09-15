@@ -12,5 +12,20 @@ li {
         height: 50px;
         margin-right: 15px;
     }
+
     display: flex;
+    margin: 9px 0px;
+}
+
+@media (max-width:1200px) {
+    li {
+        img {
+            height: 41px;
+        }
+
+        p {
+            line-height: 45px;
+            font-size: 18px;
+        }
+    }
 }

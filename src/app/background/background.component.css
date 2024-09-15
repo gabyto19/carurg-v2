@@ -80,3 +80,17 @@
   background-color: rgb(118 181 221) !important;
   box-shadow: 0px 0px 14px 7px #76b5dd !important;
 }
+
+
+
+@media (max-width: 1600px) {
+  .background img {
+    height: 420px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .background img {
+    height: 420px;
+  }
+}

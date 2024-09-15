@@ -1,4 +1,4 @@
-.welcome{
+.welcome {
     width: 600px;
     max-width: 600px;
     display: flex;
@@ -6,7 +6,8 @@
     align-items: flex-start;
     margin-left: 15%;
 }
-.quick{
+
+.quick {
     height: 355px;
     width: 500px;
     display: flex;
@@ -18,7 +19,8 @@
     border-radius: 67px;
     color: white;
 }
-.advanced{
+
+.advanced {
     height: 353px;
     width: 500px;
     display: flex;
@@ -28,15 +30,35 @@
     justify-content: space-between;
     padding: 25px;
     border-radius: 67px;
-    color: white;  
+    color: white;
 }
-.order-main{
+
+.order-main {
     position: absolute;
     left: 18%;
     margin-top: 50px;
 }
-.find{
+
+.find {
     position: relative;
     left: 150px;
     top: 70px;
+}
+
+@media (max-width: 1400px) {
+
+    .welcome,
+    .quick,
+    .advanced,
+    .find { 
+        margin-left: 0;
+        left: 0;
+    }
+    .order-main{
+        left: 11%;
+    }
+}
+
+@media (max-width:1240px){
+    
 }

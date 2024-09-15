@@ -1,15 +1,16 @@
 <div class="background">
   <div class="bg-nav position-absolute">
     <div class="quick-view views" (click)="sendOrderType('quick')">
-      <p [ngClass]="{'active-button': buttonToggler === 'quick'}">Quick</p>
+      <p [ngClass]="{'active-button': buttonToggler === 'quick'}" i18n>Quick</p>
+      
       <div class="point" [ngClass]="{'active-point': buttonToggler === 'quick'}"></div>
     </div>
     <div class="advanced-view views" (click)="sendOrderType('advanced')">
-      <p [ngClass]="{'active-button': buttonToggler === 'advanced'}">Advanced</p>
+      <p [ngClass]="{'active-button': buttonToggler === 'advanced'}" i18n>Advanced</p>
       <div class="point" [ngClass]="{'active-point': buttonToggler === 'advanced'}"></div>
     </div>
     <div class="findus-view views" (click)="sendOrderType('find')">
-      <p [ngClass]="{'active-button': buttonToggler === 'find'}">Find Us</p>
+      <p [ngClass]="{'active-button': buttonToggler === 'find'}" i18n>Find Us</p>
       <div class="point" [ngClass]="{'active-point': buttonToggler === 'find'}"></div>
     </div>
   </div>

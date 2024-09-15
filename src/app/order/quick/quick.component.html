@@ -1,8 +1,8 @@
-<h1>Quick</h1>
+<h1 i18n>Quick</h1>
 <br><br>
 <form [formGroup]="phoneNumberForm" (ngSubmit)="onSubmit()" class="form">
   <mat-form-field>
-    <mat-label>Telephone</mat-label>
+    <mat-label i18n>Telephone</mat-label>
     <input matInput type="tel" placeholder="555-555-1234" formControlName="phoneNumber" />
   </mat-form-field>
   
@@ -13,12 +13,12 @@
     {{ successMessage }}
   </p>
   <br>
-  <p>
+  <p i18n>
     Note: By submitting your phone number we will contact you on an urgent basis for
     your requirements.
   </p>
   <br>
   <button type="submit">
-    <h6>Submit</h6>
+    <h6 i18n>Submit</h6>
   </button>
 </form>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="6463600045467736931" datatype="html">
+        <source>Quick</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/background/background.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/order/quick/quick.component.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6201638315245239510" datatype="html">
+        <source>Advanced</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/background/background.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/order/advanced/advanced.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="733265759618036319" datatype="html">
+        <source>Find Us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/background/background.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2559885490456050359" datatype="html">
+        <source>Brand</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/order/advanced/advanced.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1141886420788473147" datatype="html">
+        <source>Model</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/order/advanced/advanced.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1464072562214937907" datatype="html">
+        <source>Year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/order/advanced/advanced.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2458848059908306406" datatype="html">
+        <source>Telephone</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/order/advanced/advanced.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/order/quick/quick.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7986320800024526648" datatype="html">
+        <source>Details about car | What do you need?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/order/advanced/advanced.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1153721192129533394" datatype="html">
+        <source>Contact me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/order/advanced/advanced.component.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8018743071699730744" datatype="html">
+        <source>+995 555 123 123</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/order/findus/findus.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5273107076768212928" datatype="html">
+        <source>example@gmail.com</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/order/findus/findus.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8195603151828182766" datatype="html">
+        <source>Tbilisi, example street, example number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/order/findus/findus.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7628445701126928467" datatype="html">
+        <source>Facebook Page</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/order/findus/findus.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5772932671699037098" datatype="html">
+        <source> Note: By submitting your phone number we will contact you on an urgent basis for your requirements. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/order/quick/quick.component.html</context>
+          <context context-type="linenumber">17,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="935187492052582731" datatype="html">
+        <source>Submit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/order/quick/quick.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="302367515994309109" datatype="html">
+        <source>Your Trusted Car Spare Products</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/order/welcome/welcome.component.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2845370353512978863" datatype="html">
+        <source>Providing Quality Within Time.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/order/welcome/welcome.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5856001429691492058" datatype="html">
+        <source>Order Now</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/order/welcome/welcome.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
